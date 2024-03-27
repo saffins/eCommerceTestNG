@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    
+    <listeners>
+        <listener class-name="com.ecommerce.WebApp.Utilities.ExtentListenerClass"></listener>
+    </listeners>
+    <test thread-count="5" name="Test">
+<!--          name="G:/BDD_UsingCucumberAndPOM-master/TestNGOnEcommerce">-->
+        <classes>
+            <class name="com.ecommerce.WebApp.tests.AddToCartCheckoutTest">
+
+            </class>
+            <class name="com.ecommerce.WebApp.tests.LoginTest">
+<!--                <methods>-->
+<!--                    <include name="loginWithValidCreds"/>-->
+<!--                    <include name="logout"/>-->
+<!--                    <include name="loginWithInvalidCreds"/>-->
+<!--                </methods>-->
+            </class>
+            <class name="com.ecommerce.WebApp.tests.RegistrationTest">
+<!--                <methods>-->
+<!--                    <include name="registerUserWithDuplicateEmail"/>-->
+<!--                    <include name="registerUserWithValidEmail"/>-->
+<!--                </methods>-->
+            </class>
+        </classes>
+    </test>
+</suite>

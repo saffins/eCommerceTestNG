@@ -1,0 +1,14 @@
+INFO	2022-12-21 21:26:38,878	0	HomePageStepDefination	[main]	TripAdvisor Home Page opened
+INFO	2022-12-21 21:26:42,666	3788	HomePageStepDefination	[main]	Agoda logo has been displayed
+INFO	2022-12-21 21:26:47,072	8194	HomePageStepDefination	[main]	Sign In Link Is displayed and Clickable
+INFO	2022-12-21 21:26:53,000	14122	HomePageStepDefination	[main]	Continue with Facebook displayed
+INFO	2022-12-21 21:26:58,785	19907	HomePageStepDefination	[main]	Continue with Google displayed
+INFO	2022-12-21 21:27:05,529	26651	HomePageStepDefination	[main]	Continue with email displayed
+ERROR	2022-12-21 21:27:23,520	44642	BasePage	[main]	By.cssSelector: button[id='facebookBtn']  Element could Not Be found on DOM
+INFO	2022-12-21 21:27:37,474	58596	HomePageStepDefination	[main]	Continue with email displayed
+INFO	2022-12-21 21:27:39,463	60585	HomePageStepDefination	[main]	User cannot login to the application with invalid credentials
+INFO	2022-12-21 21:27:44,956	66078	HomePageStepDefination	[main]	Continue with email displayed
+ERROR	2022-12-21 21:28:05,805	86927	BasePage	[main]	By.cssSelector: div[class='body_text']  Element could Not Be found on DOM Within given wait time
+ERROR	2022-12-21 21:28:05,822	86944	BasePage	[main]	By.cssSelector: div[class='body_text']  Element could Not Be found on DOM
+INFO	2022-12-21 21:28:12,961	94083	HomePageStepDefination	[main]	Continue with email displayed
+INFO	2022-12-21 21:28:14,649	95771	HomePageStepDefination	[main]	User cannot login to the application with blank Password
